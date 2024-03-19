@@ -9,6 +9,11 @@
     justify-content: center;
 
 }
+.alltask{
+  width: 100vh !important; 
+  display: flex;
+  flex-direction: row;
+}
 
 .task-container {
     display: flex;
@@ -16,12 +21,12 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     width: 100vh;
     justify-content: space-between;
   }
 
   .task{
+    width: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,7 +34,7 @@
   }
   
   .task-desc {
-    flex: 4;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;

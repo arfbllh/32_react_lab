@@ -81,7 +81,7 @@ const TaskManager = () => {
                 </div>
                 <button onClick={addTask}>Add New Task</button>
             </div>
-            <div>
+            
                 {tasks.map((task, index) => (
                     <div key={index} className="task-container">
                         <div className="task-d">
@@ -115,7 +115,7 @@ const TaskManager = () => {
                         </div>
                     </div>
                 ))}
-            </div>
+            
         </>
     );
 };

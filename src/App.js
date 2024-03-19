@@ -11,10 +11,11 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <Routes>
+          
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/textbox" element={<Textbox/>}/>
-          <Route path="/taskmanager" element={<TeskManager/>}/>
+          <Route path="/" element={<TeskManager/>}/>
         </Routes>
       </div>
     </BrowserRouter>
